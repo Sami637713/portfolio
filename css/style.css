@@ -195,7 +195,7 @@ span{
     margin-bottom: 5rem
   }
 
-  .services-container{
+  .services-contect{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,7 +204,7 @@ span{
   }
 
 
-  .services-container .services-box{
+  .services-contect .services-box{
     flex: 1 1 30rem;
     background: var(--snd-bg-color);
     padding: 3rem 2rem 4rem;
@@ -215,7 +215,7 @@ span{
   }
 
 
-  .services-container .services-box:hover{
+  .services-contect .services-box:hover{
      border-color: var(--main-color);
      transform: scale(1.02);
   }
