@@ -18,3 +18,11 @@
       header.classList.toggle('sticky', window.scrollY > 100);
     };
       document.getElementById('year').textContent = new Date().getFullYear();
+      // JavaScript for dynamic percentage
+document.querySelectorAll('.skill-percent').forEach(skill => {
+    let percent = skill.parentElement.getAttribute('data-percent');
+    skill.style.setProperty('--percent', percent);
+    
+    // Add animation delay for sequential loading
+    skill.style.animationDelay = `${skill.dataset.delay}s`;
+});
